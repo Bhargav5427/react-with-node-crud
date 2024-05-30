@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+td{
+  vertical-align: middle !important;
+}
+table{
+  text-align: center;
+}
+.table>:not(caption)>*>*{
+  background-color: transparent;
+}
